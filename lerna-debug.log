@@ -1,0 +1,16 @@
+0 silly argv {
+0 silly argv   _: [ 'create' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': '/Users/bzp/Library/pnpm/global/5/node_modules/lerna/cli.js',
+0 silly argv   name: 'core'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath /Users/bzp/tiny/snow-wolf/homework/react-architecture/tiny-libs
+3 info versioning independent
+4 error Error: Command failed with exit code 1: git config --get user.email
+4 error     at makeError (/Users/bzp/Library/pnpm/global/5/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
+4 error     at Function.module.exports.sync (/Users/bzp/Library/pnpm/global/5/.pnpm/execa@5.1.1/node_modules/execa/index.js:194:17)
+4 error     at Object.execSync (/Users/bzp/Library/pnpm/global/5/.pnpm/@lerna+child-process@4.0.0/node_modules/@lerna/child-process/index.js:39:16)
+4 error     at CreateCommand.gitConfig (/Users/bzp/Library/pnpm/global/5/.pnpm/@lerna+create@4.0.0/node_modules/@lerna/create/index.js:181:25)
+4 error     at CreateCommand.initialize (/Users/bzp/Library/pnpm/global/5/.pnpm/@lerna+create@4.0.0/node_modules/@lerna/create/index.js:107:47)
+4 error     at /Users/bzp/Library/pnpm/global/5/.pnpm/@lerna+command@4.0.0/node_modules/@lerna/command/index.js:274:24

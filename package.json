@@ -1,0 +1,22 @@
+{
+  "name": "tiny-libs",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "microbundle": "^0.15.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tiny <453616448@qq.com>",
+  "license": "ISC",
+  "description": ""
+}

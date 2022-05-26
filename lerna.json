@@ -1,0 +1,15 @@
+{
+  "npmClient": "pnpm",
+  "packages": [
+    "packages/*"
+  ],
+  "version": "independent",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "[skip ci] chore: release"
+    }
+  },
+  "ignoreChanges": ["**/node_modules/**", "**/__ snapshots__/**"]
+}
