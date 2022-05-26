@@ -1,6 +1,6 @@
 {
   "name": "@tiny/demos",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "🏡我是首页主业务",
   "author": "tiny <453616448@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@tiny/core": "^1.0.1",
+    "@tiny/core": "^1.0.2",
     "tiny": "npm:@tiny/core@^1.0.1"
   }
 }
