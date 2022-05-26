@@ -1,8 +1,8 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@tiny/core': workspace:^1.0.0
-  tiny: workspace:npm:@tiny/core@^1.0.0
+  '@tiny/core': ^1.0.1
+  tiny: workspace:npm:@tiny/core@^1.0.1
 
 dependencies:
   '@tiny/core': link:../core
